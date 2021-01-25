@@ -1,10 +1,7 @@
-+++
-title = "Booting a GSI on the Pixel 1/1 XL"
-date = "2020-07-24"
-author = "Asineth"
-cover = "phone.jpg"
-description = "1st-gen Pixels seem not to be completely Treble-compliant."
-+++
+---
+title: "Booting a GSI on the Pixel 1/1 XL"
+date: 2020-07-24
+---
 
 # Requirements
 

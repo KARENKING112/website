@@ -1,10 +1,7 @@
-+++
-title = "Using an Android as a SBC/Pi alternative"
-date = "2020-08-17"
-author = "Asineth"
-cover = "sbc.jpg"
-description = "Cheap low-powered Minecraft box?"
-+++
+---
+title: "Using an Android as a SBC/Pi alternative"
+date: 2020-08-17
+---
 
 # Motivation
 

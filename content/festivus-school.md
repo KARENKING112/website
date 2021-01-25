@@ -1,7 +1,6 @@
 ---
 title: "Having School on Festivus is Evil"
-date: 2020-12-22T20:27:47-05:00
-draft: false
+date: 2020-12-22
 ---
 
 ![](/festivus.jpg)

@@ -1,10 +1,7 @@
-+++
-title = "Debian 10 Root on Encrypted ZFS"
-date = "2020-08-13"
-author = "Asineth"
-cover = "linux.jpg"
-description = "Close to the perfect filesystem."
-+++
+---
+title: "Debian 10 Root on Encrypted ZFS"
+date: 2020-08-13
+---
 
 # Motivation
 

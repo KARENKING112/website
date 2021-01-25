@@ -1,10 +1,7 @@
-+++
-title = "Unofficial ROMs for Moto G8/G8 Power"
-date = "2020-09-14"
-author = "Asineth"
-cover = "android.jpg"
-description = "LineageOS 17.1 & Pixel Experience 10 for the SD 635 Motos."
-+++
+---
+title: "Unofficial ROMs for Moto G8/G8 Power"
+date: 2020-09-14
+---
 
 # Status
 
