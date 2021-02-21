@@ -1,3 +1,3 @@
 #!/bin/sh
-rm -rf docs
-hugo -D --gc -d docs
+rm -rf public
+hugo -D --gc -d public
