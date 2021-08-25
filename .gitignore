@@ -1,1 +1,4 @@
-public/
+node_modules
+npm-error.log
+yarn-error.log
+dist
