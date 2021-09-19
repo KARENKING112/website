@@ -18,7 +18,7 @@ module.exports = {
           800: "#181818",
           900: "#0f0f0f",
         },
-        primary: colors.purple,
+        primary: colors.violet,
       },
       typography: (theme) => ({
         light: {

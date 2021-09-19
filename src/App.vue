@@ -44,6 +44,6 @@ body {
 }
 
 a {
-  @apply text-primary-300 hover:text-primary-400 transition;
+  @apply text-primary-400 hover:text-primary-300 transition;
 }
 </style>
