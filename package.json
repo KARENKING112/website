@@ -5,26 +5,28 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint . --fix --ext .js,.vue"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@tailwindcss/typography": "^0.4.1",
-    "@vitejs/plugin-vue": "^1.8.0",
-    "@vue/compiler-sfc": "^3.2.12",
-    "autoprefixer": "^10.3.4",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vue/compiler-sfc": "^3.2.21",
+    "autoprefixer": "^10.4.0",
     "buffer": "^6.0.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^7.18.0",
+    "eslint-plugin-vue": "^8.0.3",
     "gray-matter": "^4.0.3",
     "markdown-it": "^12.2.0",
     "markdown-it-emoji": "^2.0.0",
     "markdown-it-link-attributes": "^3.0.0",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.11",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.15",
-    "vite": "^2.5.10",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.13",
     "vue": "^3.0.5",
     "vue-router": "^4.0.11"
   }

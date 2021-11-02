@@ -8,12 +8,17 @@ import MarkdownItLink from "markdown-it-link-attributes";
 window.Buffer = Buffer;
 
 export default async () => {
-  const mi = new MarkdownIt();
+  const mi = new MarkdownIt().use(MarkdownItEmoji).use(MarkdownItLink, {
+    attrs: {
+      target: "_blank",
+      rel: "noopener noreferrer",
+    },
+  });
 
   const routes = [
     {
       path: "/",
-      component: () => import("../views/Home.vue"),
+      component: () => import("../views/HomeView.vue"),
     },
   ];
 
@@ -28,7 +33,7 @@ export default async () => {
 
     routes.push({
       path,
-      component: () => import("../views/Post.vue"),
+      component: () => import("../views/PostView.vue"),
       props: {
         data,
         content: mi.render(content),

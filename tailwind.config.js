@@ -18,7 +18,7 @@ module.exports = {
           800: "#181818",
           900: "#0f0f0f",
         },
-        primary: colors.violet,
+        primary: colors.green,
       },
       typography: (theme) => ({
         light: {
@@ -43,6 +43,7 @@ module.exports = {
               color: theme("colors.gray.200"),
               backgroundColor: theme("colors.gray.900"),
               border: `1px solid ${theme("colors.gray.700")}`,
+              lineHeight: "1.25rem",
             },
             thead: {
               color: theme("colors.gray.100"),

@@ -4,6 +4,7 @@
       <h1>{{ data.title }}</h1>
       <p>{{ data.date.toLocaleDateString() }}</p>
     </div>
+    <!-- eslint-disable-next-line vue/no-v-html -->
     <div class="-mt-8" v-html="content" />
   </div>
 </template>
@@ -14,11 +15,11 @@ import { defineProps } from "vue";
 defineProps({
   data: {
     type: Object,
-    default: {},
+    default() {},
   },
   content: {
     type: String,
-    default: {},
+    default() {},
   },
 });
 </script>

@@ -1,26 +1,28 @@
 <template>
-  <Navbar />
-  <div class="max-w-4xl mx-auto py-16 px-4 sm:px-8">
-    <router-view v-slot="{ Component }">
-      <transition
-        enter-active-class="transition transform duration-75 ease-out"
-        enter-from-class="opacity-0 translate-y-1"
-        enter-to-class="opacity-100 translate-y-0"
-        leave-active-class="transition transform duration-75 ease-out"
-        leave-from-class="opacity-100"
-        leave-to-class="opacity-0"
-        mode="out-in"
-      >
-        <component :is="Component" :key="$route.path" />
-      </transition>
-    </router-view>
+  <div class="flex flex-col min-h-screen">
+    <HeaderBar />
+    <div class="max-w-4xl w-full mx-auto py-16 px-4 sm:px-8 flex-1">
+      <router-view v-slot="{ Component }">
+        <transition
+          enter-active-class="transition transform duration-75 ease-out"
+          enter-from-class="opacity-0 translate-y-1"
+          enter-to-class="opacity-100 translate-y-0"
+          leave-active-class="transition transform duration-75 ease-out"
+          leave-from-class="opacity-100"
+          leave-to-class="opacity-0"
+          mode="out-in"
+        >
+          <component :is="Component" :key="$route.path" />
+        </transition>
+      </router-view>
+    </div>
+    <FooterBar />
   </div>
-  <Footer />
 </template>
 
 <script setup>
-import Navbar from "./components/Navbar.vue";
-import Footer from "./components/Footer.vue";
+import HeaderBar from "./components/HeaderBar.vue";
+import FooterBar from "./components/FooterBar.vue";
 </script>
 
 <style>

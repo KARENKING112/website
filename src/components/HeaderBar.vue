@@ -13,7 +13,7 @@
   >
     <router-link to="/" class="space-y-6 flex flex-col items-center">
       <img
-        src="../assets/images/avatar.webp"
+        src="../assets/images/asineth.png"
         class="w-24 h-24 rounded-full shadow-2xl"
       />
       <p class="font-bold text-4xl mt-6">Asineth</p>
