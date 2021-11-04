@@ -15,6 +15,7 @@
         inset-0
         bg-black bg-opacity-50
         backdrop-blur
+        text-center
       "
     >
       <router-link to="/" class="space-y-4 flex flex-col items-center">
