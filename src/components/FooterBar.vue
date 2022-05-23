@@ -11,7 +11,7 @@
     "
   >
     <p>
-      &copy; Asineth 2021
+      &copy; Asineth 2022
       <a href="https://github.com/asineth0/website" class="ml-2">View code</a>
     </p>
   </div>
